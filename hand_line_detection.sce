@@ -22,7 +22,7 @@ function result=binary_converter(matrix,threshold)
     end;
 endfunction;
 
-img = imread("hand.jpg");
+img = imread("src/hand.jpg");
 img = double(img);
 img_gray = rgb2gray(img);
 [i_row i_col i_deep] = size(img);
